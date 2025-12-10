@@ -1,0 +1,40 @@
+{
+  "name": "peer-learning-backend",
+  "version": "1.0.0",
+  "description": "Real-time peer learning platform backend",
+  "main": "dist/index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "ts-node --esm src/index.ts",
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "test": "jest",
+    "lint": "eslint src/**/*.ts"
+  },
+  "keywords": ["learning", "peer", "realtime", "websocket"],
+  "author": "Arpan",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "socket.io": "^4.7.2",
+    "mongoose": "^8.0.0",
+    "jsonwebtoken": "^9.1.0",
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^16.3.1",
+    "cors": "^2.8.5",
+    "openai": "^4.14.0",
+    "multer": "^1.4.5-lts.1",
+    "express-validator": "^7.0.0",
+    "axios": "^1.6.2"
+  },
+  "devDependencies": {
+    "@types/node": "^20.4.2",
+    "@types/express": "^4.17.17",
+    "typescript": "^5.1.6",
+    "ts-node": "^10.9.1",
+    "@typescript-eslint/eslint-plugin": "^6.2.1",
+    "@typescript-eslint/parser": "^6.2.1",
+    "jest": "^29.6.2",
+    "@types/jest": "^29.5.3"
+  }
+}
