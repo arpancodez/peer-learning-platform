@@ -32,3 +32,14 @@ We provide security updates for the latest version. Older versions may not recei
 - Secure headers configuration
 
 Thank you for helping keep this project secure!
+
+
+## API Security Hardening
+
+- Implement rate limiting on all endpoints
+- Validate and sanitize all user inputs
+- Use HTTPS/TLS for all communications
+- Implement API key rotation policies
+- Use JWT with short expiration times
+- Implement CORS properly
+- Log all security events
