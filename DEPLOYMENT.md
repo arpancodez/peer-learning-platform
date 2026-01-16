@@ -66,3 +66,18 @@ Response:
   "database": "connected"
 }
 ```
+
+
+## Deployment Rollback
+
+- Keep previous release artifacts available
+- Test rollback procedures regularly
+- Document rollback steps clearly
+- Monitor system during rollback
+
+## Environment Management
+
+- Use separate configs for dev, staging, production
+- Protect production environment variables
+- Regular backup of database
+- Test migrations in staging first
