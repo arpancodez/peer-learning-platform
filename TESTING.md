@@ -42,3 +42,18 @@ npm run test:e2e
 ```bash
 node --inspect-brk node_modules/.bin/jest --runInBand
 ```
+
+## Performance Testing
+
+- Monitor response times under load
+- Use tools like Artillery or JMeter for load testing
+- Ensure API response times < 500ms
+- Test concurrent connections up to 1000 users
+- Validate database query performance
+
+## Accessibility Testing
+
+- Follow WCAG 2.1 guidelines
+- Test keyboard navigation
+- Verify screen reader compatibility
+- Ensure sufficient color contrast ratios
