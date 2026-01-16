@@ -39,3 +39,20 @@
 - Target LCP: < 2.5s
 - Target CLS: < 0.1
 - API response time: < 200ms
+
+
+## Database Optimization
+
+- Add indexes on frequently queried columns
+- Use connection pooling for database connections
+- Implement query caching strategies
+- Monitor slow query logs
+- Regular database maintenance and cleanup
+- Use pagination for large datasets
+
+## API Response Optimization
+
+- Implement gzip compression for responses
+- Use ETag headers for client-side caching
+- Return only necessary fields in API responses
+- Implement request rate limiting
